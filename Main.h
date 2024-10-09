@@ -15,6 +15,14 @@ extern "C" {
 JNIEXPORT jint JNICALL Java_Main_processInt
         (JNIEnv *, jobject, jint);
 
+/*
+ * Class:     Main
+ * Method:    processString
+ * Signature: (Ljava/lang/String;)Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_Main_processString
+        (JNIEnv *, jobject, jstring);
+
 #ifdef __cplusplus
 }
 #endif
